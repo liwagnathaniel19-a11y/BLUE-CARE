@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Medical supplies and pharmaceutical essentials. Browse products, view prices, and contact our team.">
+  <meta name="theme-color" content="#0756a5">
+  <title>BlueCare Medical & Pharmacy</title>
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="BlueCare home">
+        <img src="assets/logo.svg" alt="" width="46" height="46">
+        <span><strong>BlueCare</strong><small>MEDICAL & PHARMACY</small></span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a href="#products">Products</a>
+        <a href="#prices">Price list</a>
+        <a href="#locations">Store locations</a>
+        <a class="nav-cta" href="#contact">Contact us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> YOUR HEALTH, OUR PRIORITY</span>
+          <h1>Everyday care.<br><span>Made accessible.</span></h1>
+          <p class="hero-lede">Trusted medical supplies and pharmacy essentials for homes, clinics, and healthcare professionals.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#products">Explore products <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="#contact">Talk to our team</a>
+          </div>
+          <div class="hero-points">
+            <span><span class="check">✓</span> Essential supplies</span>
+            <span><span class="check">✓</span> Friendly service</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of medical supplies">
+          <div class="art-circle"></div>
+          <div class="art-card art-card-top"><span class="art-icon">✚</span><span><b>Care essentials</b><small>For everyday wellbeing</small></span></div>
+          <div class="medical-kit">
+            <div class="kit-handle"></div><div class="kit-cross">+</div><div class="kit-line"></div>
+          </div>
+          <div class="art-card art-card-bottom"><span class="pulse-icon">♡</span><span><b>Here for your health</b><small>One item at a time</small></span></div>
+          <span class="floating-dot dot-one"></span><span class="floating-dot dot-two"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Our service values">
+      <div class="container trust-grid">
+        <div><span class="trust-symbol">✚</span><span><b>Medical essentials</b><small>Everyday healthcare needs</small></span></div>
+        <div><span class="trust-symbol">♡</span><span><b>People-first service</b><small>Helpful, friendly support</small></span></div>
+        <div><span class="trust-symbol">⌖</span><span><b>Convenient locations</b><small>Find a store near you</small></span></div>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">WHAT WE CARRY</span><h2>Shop health essentials</h2></div>
+          <p>Browse a selection of popular items. Availability may vary by branch.</p>
+        </div>
+        <div class="filter-row" role="group" aria-label="Filter products">
+          <button class="filter-button active" data-filter="all">All products</button>
+          <button class="filter-button" data-filter="first-aid">First aid</button>
+          <button class="filter-button" data-filter="equipment">Equipment</button>
+          <button class="filter-button" data-filter="protection">Protection</button>
+        </div>
+        <div class="product-grid" id="product-grid">
+          <article class="product-card" data-category="first-aid">
+            <div class="product-visual visual-bandage"><span>✚</span></div>
+            <div class="product-info"><span class="product-category">FIRST AID</span><h3>Adhesive Bandages</h3><p>Flexible strips for minor cuts and scrapes.</p><div class="product-bottom"><strong>₱45.00</strong><span>Pack</span></div></div>
+          </article>
+          <article class="product-card" data-category="equipment">
+            <div class="product-visual visual-thermo"><span>🌡</span></div>
+            <div class="product-info"><span class="product-category">EQUIPMENT</span><h3>Digital Thermometer</h3><p>Compact thermometer for home monitoring.</p><div class="product-bottom"><strong>₱180.00</strong><span>Each</span></div></div>
+          </article>
+          <article class="product-card" data-category="protection">
+            <div class="product-visual visual-mask"><span>▤</span></div>
+            <div class="product-info"><span class="product-category">PROTECTION</span><h3>Disposable Face Masks</h3><p>Comfortable, single-use protective masks.</p><div class="product-bottom"><strong>₱95.00</strong><span>Box of 50</span></div></div>
+          </article>
+          <article class="product-card" data-category="first-aid">
+            <div class="product-visual visual-gauze"><span>＋</span></div>
+            <div class="product-info"><span class="product-category">FIRST AID</span><h3>Sterile Gauze Pads</h3><p>Individually wrapped wound-care pads.</p><div class="product-bottom"><strong>₱65.00</strong><span>Pack</span></div></div>
+          </article>
+          <article class="product-card" data-category="equipment">
+            <div class="product-visual visual-pressure"><span>♥</span></div>
+            <div class="product-info"><span class="product-category">EQUIPMENT</span><h3>Blood Pressure Monitor</h3><p>Digital monitor for at-home tracking.</p><div class="product-bottom"><strong>₱1,250.00</strong><span>Each</span></div></div>
+          </article>
+          <article class="product-card" data-category="protection">
+            <div class="product-visual visual-gloves"><span>♧</span></div>
+            <div class="product-info"><span class="product-category">PROTECTION</span><h3>Disposable Gloves</h3><p>Single-use gloves for general-purpose care.</p><div class="product-bottom"><strong>₱160.00</strong><span>Box</span></div></div>
+          </article>
+        </div>
+        <p class="disclaimer">Sample product names and prices are for website demonstration only. Confirm actual pricing, stock, and product specifications with the store before purchase. Prescription medicines are dispensed only in accordance with applicable law.</p>
+      </div>
+    </section>
+
+    <section class="price-section" id="prices">
+      <div class="container price-layout">
+        <div class="price-intro"><span class="eyebrow">QUICK REFERENCE</span><h2>Price list</h2><p>Use this quick list to compare selected essentials. Prices shown are editable sample values.</p><a class="text-link" href="#contact">Ask about availability <span aria-hidden="true">→</span></a></div>
+        <div class="price-table-wrap">
+          <table>
+            <thead><tr><th scope="col">Product</th><th scope="col">Pack size</th><th scope="col">Price</th></tr></thead>
+            <tbody>
+              <tr><td>Adhesive Bandages</td><td>Pack</td><td>₱45.00</td></tr>
+              <tr><td>Digital Thermometer</td><td>Each</td><td>₱180.00</td></tr>
+              <tr><td>Disposable Face Masks</td><td>Box of 50</td><td>₱95.00</td></tr>
+              <tr><td>Sterile Gauze Pads</td><td>Pack</td><td>₱65.00</td></tr>
+              <tr><td>Blood Pressure Monitor</td><td>Each</td><td>₱1,250.00</td></tr>
+              <tr><td>Disposable Gloves</td><td>Box</td><td>₱160.00</td></tr>
+            </tbody>
+          </table>
+          <div class="table-footnote">Prices in Philippine pesos (₱). Actual prices and availability may change.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section locations-section" id="locations">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">COME SAY HELLO</span><h2>Find our stores</h2></div>
+          <p>Visit a branch or contact us to check stock before travelling.</p>
+        </div>
+        <div class="location-grid">
+          <article class="location-card"><div class="location-icon">⌖</div><div><span class="branch-label">MAIN BRANCH</span><h3>BlueCare — Main Store</h3><p class="location-address">[Add street, barangay, city, and province]</p><p class="location-hours"><span>◷</span> [Add store hours]</p><a class="text-link map-link" href="https://maps.google.com/" target="_blank" rel="noopener">Open in Google Maps ↗</a></div></article>
+          <article class="location-card"><div class="location-icon">⌖</div><div><span class="branch-label">BRANCH 02</span><h3>BlueCare — [Branch Name]</h3><p class="location-address">[Add full branch address]</p><p class="location-hours"><span>◷</span> [Add store hours]</p><a class="text-link map-link" href="https://maps.google.com/" target="_blank" rel="noopener">Open in Google Maps ↗</a></div></article>
+        </div>
+        <p class="edit-note">Replace the sample branch names, addresses, hours, and map links with your verified store details before publishing.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-panel">
+        <div><span class="eyebrow eyebrow-light">WE'RE HERE TO HELP</span><h2>Need help finding<br>the right essentials?</h2><p>Contact our team for product questions, bulk orders, and store availability.</p></div>
+        <div class="contact-actions">
+          <a class="button button-white" id="email-link" href="mailto:hello@example.com">✉ Email our team</a>
+          <a class="button button-outline-light" id="phone-link" href="tel:+630000000000">☎ Call the store</a>
+          <small>Update the email address and phone number in <code>js/script.js</code>.</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <a class="brand footer-brand" href="#home"><img src="assets/logo.svg" alt="" width="38" height="38"><span><strong>BlueCare</strong><small>MEDICAL & PHARMACY</small></span></a>
+      <p>Supporting healthier homes and communities.</p>
+      <span class="copyright">© <span id="year"></span> BlueCare Medical & Pharmacy</span>
+    </div>
+  </footer>
+</body>
+</html>
